@@ -69,8 +69,8 @@ webpackJsonp(
               currentStyle: "",
               enableHtml: !1,
               fullStyle: [
-                "/*\n* Hi~ 莎莎宝贝！\n* 今天是七夕情人节啦~ 一直在想给你送什么礼物好\n* 微信机器人提前送啦，今天送啥呢？那就再搞点花样吧~\n* 看这个页面。就是个什么也没有的网页。\n* 让我来给这个空白的页面加点儿东西。\n* 嗯，说起来，我还得识别一下你用的手机还是电脑。\n* 巴啦啦能量，识别魔法！你现在用的是。。。" +
-                  (h ? "电脑" : "手机") +
+                "/*\n* Hi~ 莎莎宝贝！\n* 今天是七夕情人节啦~ \n* 一直在想给你送什么礼物好\n* 微信机器人提前送啦，今天送啥呢？\n* 那就再搞点花样吧~\n* 看这个页面。就是个什么也没有的网页。\n* 让我来给这个空白的页面加点儿东西。\n* 嗯...我还得识别一下你用的手机还是电脑。\n* 巴啦啦能量，识别魔法！你现在用的是——\n" +
+                  (h ? "* 电脑" : "* 手机") +
                   "\n*/\n\n/* 首先给所有元素加上过渡效果 */\n* {\n  -webkit-transition: all .3s;\n  transition: all .3s;\n}\n/* 白色背景太单调了。来点背景 */\nhtml {\n  color: rgb(222,222,222);\n  background: rgb(0,43,54); \n}\n/* 文字太近了 */\n.styleEditor {\n  padding: .5em;\n  border: 1px solid;\n  margin: .5em;\n  overflow: auto;\n  " +
                   (h ? "width: 48%;height: 96%;" : "width: 96%;height: 50%;") +
                   "\n  font-size: 14px;\n  line-height:1.5;\n}\n/* 这些代码颜色都一样。加点儿高亮区别来 */\n.token.selector{ color: rgb(133,153,0) }\n.token.property{ color: rgb(187,137,0) }\n.token.punctuation{ color: yellow }\n.token.function{ color: rgb(42,161,152) }\n.token.comment{ color: rgb(177,177,177) }\n/* 加个 3D 效果 */\nhtml{\n  -webkit-perspective: 1000px;\n          perspective: 1000px;\n}\n.styleEditor {\n  position: fixed; \n  " +
@@ -83,7 +83,7 @@ webpackJsonp(
                   (h
                     ? ""
                     : "-webkit-transform-origin: 50% 0% 0;transform-origin: 50% 0% 0;") +
-                  "\n}\n\n/* 再来一张信纸 */\n.resumeEditor{\n  position: fixed; \n  " +
+                  "\n}\n\n/* 别急哦~ 再来一张信纸 */\n.resumeEditor{\n  position: fixed; \n  " +
                   (h ? "right: 0;" : "left:0;right:0;margin:auto;") +
                   "\n  " +
                   (h ? "top: 0;" : "bottom:2%;") +
@@ -115,7 +115,7 @@ webpackJsonp(
                   "2022-03-05"
                 ) +
                   1) +
-                "` 天\n\n一起恰过的美食\n----\n\n* JLU食堂“美食”，嘿嘿\n* JLU凉亭露天“食堂”\n* 串串\n* 火锅\n* 万达里的日料\n* 内江三三牛肉汤\n* 豆花\n* 猫爪烤肉\n* 茶颜悦色\n* 码头茶肆\n* 霸王茶姬\n* 元祖蛋糕\n* 必胜客\n* 还有好多好多一起做的美食，嘿嘿 \n* ……\n\n一起看过的电影或剧\n----\n\n1. 我是shaRenfan-(悬疑,怕怕)\n2. 我的野蛮女友\n3. 小姐(嘿嘿)\n4. 上帝也疯狂\n5. 你丫闭嘴\n6. 盗钥匙的方法\n7. 白头神探\n8. 流浪地球2\n9. 阿凡达\n10. 完美搭档\n11. ... ...\n12. 武林外传\n13. 脱口秀大会 \n14. 亮剑\n15. Running man\n16. 相声(线下滴)\n17. 狂飙\n18. 喜剧大赛\n19. 爸爸去哪儿\n 20. 斗罗大陆\n 21. 神印王座 \n22.不良人 \n\n一起玩过的地方\n----\n\n* JLU小花园\n* 重庆欢乐谷\n* 大玩家\n* 汉海海洋馆\n* 逗乐坊\n* Fudan University\n* 蹦床竞技公园\n* livehouse酒馆儿\n* ... ...\n\n一起玩过的游戏\n----\n\n1. 斗地主\n2. Tick-Tock\n3. 跳棋\n4. 王者荣耀\n5. 双人成行\n6. ... ...\n\n> 【To my dear HSS】  \n> 希望以后和你的生活，温柔，有趣，不必太激烈，三餐，四季，不必太匆忙，毕竟我有一生的时间要和你浪费。\n\n",
+                "` 天\n\n一起恰过的美食\n----\n\n* JLU食堂“美食”，嘿嘿\n* JLU凉亭露天“食堂”\n* 串串\n* 火锅\n* 万达里的日料\n* 内江三三牛肉汤\n* 豆花\n* 猫爪烤肉\n* 茶颜悦色\n* 码头茶肆\n* 霸王茶姬\n* 元祖蛋糕\n* 必胜客\n* 还有好多好多一起做的美食，嘿嘿 \n* ……\n\n一起看过的电影或剧\n----\n\n1. 我是shaRenfan-(悬疑,怕怕)\n2. 我的野蛮女友\n3. 小姐(嘿嘿)\n4. 上帝也疯狂\n5. 白头神探\n6. 盗钥匙的方法\n7. 阿凡达\n8. 流浪地球2\n9. 完美搭档\n10. ... ...\n11. 脱口秀大会 \n12. 武林外传\n13. 相声(线下滴)\n14. Running man\n15. 爸爸去哪儿\n16. 神印王座\n17. 狂飙\n18. 斗罗大陆\n19. 不良人\n \n\n一起玩过的地方\n----\n\n* JLU小花园\n* 重庆欢乐谷\n* 大玩家\n* 汉海海洋馆\n* 逗乐坊\n* Fudan University\n* 蹦床竞技公园\n* livehouse酒馆儿\n* ... ...\n\n一起玩过的游戏\n----\n\n1. 斗地主\n2. Tick-Tock\n3. 跳棋\n4. 王者荣耀\n5. 双人成行\n6. ... ...\n\n> 【To my dear HSS】  \n> 希望以后和你的生活，温柔，有趣，不必太激烈，三餐，四季，不必太匆忙，毕竟我有一生的时间要和你浪费。\n\n",
             };
           },
           created: function () {
@@ -205,7 +205,7 @@ webpackJsonp(
                                         this.$nextTick(function () {
                                           d.$refs.styleEditor.goBottom();
                                         }),
-                                      setTimeout(i, o * 2))
+                                      setTimeout(i, o * 1.5))
                                     : t();
                               case 6:
                               case "end":
